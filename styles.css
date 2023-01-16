@@ -1,0 +1,24 @@
+
+* {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#odin-recipes-header {
+    text-indent: 40px;
+}
+
+body {
+    background-color: rgb(222, 184, 135, 0.5);
+}
+
+div .recipes {
+    color: white;
+    font-size: 20px;
+    line-height: 1.8;
+    text-indent: 25px;
+    /* border-style: double;
+    border-color: black;
+    box-sizing: border-box;
+    width: 300px; 
+            Lekte med boxar här men Isak dök upp så bytte till windows för jag är för lat för att fortsätta jobba :DDDD*/
+}
