@@ -3,7 +3,7 @@
     font-family: 'Times New Roman', Times, serif;
 }
 
-#odin-recipes-header {
+.header {
     text-indent: 40px;
 }
 
@@ -11,7 +11,12 @@ body {
     background-color: rgb(222, 184, 135, 0.5);
 }
 
-div .recipes {
+img.scale-recipe-img {
+    width: 300px;
+    height: auto;
+}
+
+div .recipe-pages {
     color: white;
     font-size: 20px;
     line-height: 1.8;
@@ -21,4 +26,14 @@ div .recipes {
     box-sizing: border-box;
     width: 300px; 
             Lekte med boxar här men Isak dök upp så bytte till windows för jag är för lat för att fortsätta jobba :DDDD*/
+}
+
+.recipe-title {
+    text-indent: 30px;
+}
+
+.mamma, 
+.pappa {
+    background-color: black;
+    color: white;
 }
