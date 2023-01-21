@@ -51,7 +51,6 @@ div .recipe-pages {
 
 .dropdown:hover .dropdown-content {
     display: block;
-    margin: auto 20px;
 }
 
 a:link {
