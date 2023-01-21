@@ -3,37 +3,65 @@
     font-family: 'Times New Roman', Times, serif;
 }
 
-.header {
-    text-indent: 40px;
+.header,
+.recipe-title {
+    text-indent: 50px;
 }
 
 body {
     background-color: rgb(222, 184, 135, 0.5);
 }
 
-img.scale-recipe-img {
-    width: 300px;
+img.scale-recipe-img,
+.teletubbie {
+    width: 400px;
     height: auto;
+    float: right;
+}
+
+.teletubbie {
+    margin: auto 20%;
 }
 
 div .recipe-pages {
-    color: white;
     font-size: 20px;
     line-height: 1.8;
     text-indent: 25px;
-    /* border-style: double;
-    border-color: black;
-    box-sizing: border-box;
-    width: 300px; 
-            Lekte med boxar här men Isak dök upp så bytte till windows för jag är för lat för att fortsätta jobba :DDDD*/
+    width: 300px;
+    list-style-type: none;
+
 }
 
-.recipe-title {
-    text-indent: 30px;
+
+.dropdown {
+    font-size: 20px;
+    left: 10%;
+    position: relative;
+    display: inline-block;
 }
 
-.mamma, 
-.pappa {
-    background-color: black;
-    color: white;
+.dropdown-content {
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    background-color: rgb(222, 184, 135, 0.8);
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+    margin: auto 20px;
+}
+
+a:link {
+    color: #00e;
+}
+ a:visited {
+    color: #551a8b;
+ }
+
+a:hover {
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 3px;
 }
