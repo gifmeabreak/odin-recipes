@@ -3,9 +3,8 @@
     font-family: 'Times New Roman', Times, serif;
 }
 
-.header,
-.recipe-title {
-    text-indent: 50px;
+.header {
+    text-align: center;
 }
 
 body {
@@ -26,24 +25,35 @@ img.scale-recipe-img,
 div .recipe-pages {
     font-size: 20px;
     line-height: 1.8;
-    text-indent: 25px;
-    width: 300px;
+    width: 200px;
     list-style-type: none;
 
 }
 
+h3 {
+    text-indent: 30px;
+}
+
+div.description,
+div.ingredients-box,
+div.step-box {
+    width: 500px;
+    margin: auto;
+    border: 2px solid red;
+}
 
 .dropdown {
+    text-align: center;
     font-size: 20px;
-    left: 10%;
     position: relative;
+    margin: auto;
     display: inline-block;
 }
 
 .dropdown-content {
     display: none;
     position: absolute;
-    min-width: 160px;
+    min-width: auto;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 1;
     background-color: rgb(222, 184, 135, 0.8);
@@ -62,5 +72,35 @@ a:link {
 
 a:hover {
     background-color: rgba(255, 255, 255, 0.5);
-    padding: 3px;
+    padding: 2px;
 }
+
+/* Navbar container */
+.navbar {
+    overflow: hidden;
+    background-color: transparent;
+  }
+  
+  /* Links inside the navbar */
+  .navbar a {
+    float: right;
+    font-size: 16px;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+.dropdown123 .dropbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit; /* Important for vertical align on mobile phones */
+    margin: 0; /* Important for vertical align on mobile phones */
+  }
+
+  /* Add a red background color to navbar links on hover */
+.navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: red;
+  }
